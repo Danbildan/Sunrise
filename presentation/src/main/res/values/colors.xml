@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="secondaryText">#424242</color>
+    <color name="primaryText">#212121</color>
+
+    <color name="recycler_date">#448AFF</color>
+    <color name="status_101">#F44336</color>
+    <color name="status_102">#FF9800</color>
+    <color name="status_103">#8BC34A</color>
+
+    <color name="button_text">#fff</color>
+    <color name="field_background">#F5F5F5</color>
+    <color name="field_background_light">#FAFAFA</color>
+    <color name="button_red">#FF7043</color>
+    <color name="hint">#616161</color>
+
+    <color name="grad_start">#F1F8E9</color>
+    <color name="grad_end">#40AED581</color>
+
+
+
+
+</resources>
