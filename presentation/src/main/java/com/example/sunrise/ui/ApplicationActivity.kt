@@ -42,13 +42,11 @@ class ApplicationActivity : AppCompatActivity() {
     }
 
 
-
-
-
-    public fun showDeskScreen() : Boolean{
+    fun showDeskScreen() : Boolean{
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.container, DeskFragment())
+            .commit()
         return true
     }
 

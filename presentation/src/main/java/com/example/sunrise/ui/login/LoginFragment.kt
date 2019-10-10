@@ -28,8 +28,8 @@ class LoginFragment : MvpAppCompatFragment(), LoginView{
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val v = inflater.inflate(R.layout.fr_login, container, false)
-        loadingView = v.findViewById(R.id.loading)
-        loadingView.isEnabled = false
+        loadingView = v.findViewById(R.id.loading) // TODO не работает
+//        loadingView.isEnabled = false
 
         passwordEditText = v.findViewById(R.id.enter_password_editText)
         loginEditText = v.findViewById(R.id.enter_login_editText)
