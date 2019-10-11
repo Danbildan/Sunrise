@@ -48,4 +48,9 @@ dependencies {
     implementation 'tech.schoolhelper:moxy-x:1.7.0'
     implementation 'tech.schoolhelper:moxy-x-androidx:1.7.0'
     kapt 'tech.schoolhelper:moxy-x-compiler:1.7.0'
+
+//room
+    implementation "android.arch.persistence.room:runtime:1.1.1"
+    kapt "android.arch.persistence.room:compiler:1.1.1"
+
 }

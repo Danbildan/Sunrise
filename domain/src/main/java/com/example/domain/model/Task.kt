@@ -1,3 +1,11 @@
 package com.example.domain.model
 
-data class Task(val id: String, val description: String, val status: Int)
+import android.arch.persistence.room.ColumnInfo
+import android.arch.persistence.room.Entity
+import android.arch.persistence.room.PrimaryKey
+
+@Entity(tableName = "task_table")
+data class Task(
+    @PrimaryKey @ColumnInfo(name = "id") val id: String,
+    @ColumnInfo(name = "description") val description: String,
+    @ColumnInfo(name = "status") val status: Int)

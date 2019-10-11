@@ -5,6 +5,6 @@ import com.example.sunrise.common.BaseView
 
 interface DeskView : BaseView {
 
-    fun showTasks(tasks : MutableList<Task>)
+    fun     showTasks(tasks : MutableList<Task>)
 
 }

@@ -3,7 +3,9 @@ package com.example.sunrise.ui.login
 
 import com.arellomobile.mvp.InjectViewState
 import com.arellomobile.mvp.MvpPresenter
+import com.example.domain.interactor.SunriseInteractor
 import com.example.domain.interactor.UserInteractor
+import com.example.sunrise.AppDelegation
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
@@ -11,7 +13,7 @@ import io.reactivex.schedulers.Schedulers
 @InjectViewState
 class LoginPresenter : MvpPresenter<LoginView>() {
 
-    val interactor: UserInteractor = UserInteractor()
+    var interactor: SunriseInteractor = AppDelegation.interactor!! //TODO!!!!!!!!!!!
 
 
 
@@ -40,6 +42,7 @@ class LoginPresenter : MvpPresenter<LoginView>() {
 
     private fun showError(errorMessage : String){
         viewState.showError(errorMessage)
+
     }
 
 

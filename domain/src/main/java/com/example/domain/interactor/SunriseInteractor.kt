@@ -8,5 +8,5 @@ interface SunriseInteractor {
 
     fun login(login : String?, password : String?): Completable
 
-    fun getTasks(): Single<Task>
+    fun getTasks(): Single<MutableList<Task>>
 }
